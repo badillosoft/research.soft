@@ -10,7 +10,7 @@ Siéntete libre de compartir estas notas, pero no olvides promocionar mi página
 
 ## Variables
 
-En los tres lenguaes las variables se comportan casi igual, recordemos que son lenguajes no tipados. Sin embargo, en _ruby_ todo son objetos, hasta los números, por lo que los números tienen métodos, por ejemplo:
+En los tres lenguajes las variables se comportan casi igual, recordemos que son lenguajes no tipados. Sin embargo, en _ruby_ todo son objetos, hasta los números, por lo que los números tienen métodos, por ejemplo:
 
 > Ruby
 
