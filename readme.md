@@ -1,15 +1,15 @@
 # Bienvenidos
 
-### Alan Badillo Salas | @[@badillosoft](https://twitter.com/badillosoft) | badillo.soft@hotmail.com 
+### Alan Badillo Salas | [@badillosoft](https://twitter.com/badillosoft) | badillo.soft@hotmail.com 
 
 ## Introducción
 
-Este github contiene diversos códigos de diversos lenguajes
-cada código resuleve un problema específico y están secuenciados
+Este _github_ contiene códigos de diversos lenguajes.
+Cada código resuelve un problema específico y están secuenciados
 por día con el objetivo que día a día vayan creciendo podamos
 construir un conjunto de recetas interesantes.
 
-Visita la página _Desarrolladores sin límites_ en _Facebook_:
+Visita la página __Desarrolladores sin límites__ en _Facebook_:
 [research.sof](https://www.facebook.com/research.soft)
 
 Sigueme en _Twitter_:
@@ -22,8 +22,7 @@ Buscame en _LinkedIn_:
 
 Los archivos nombrados *code_aa_mm_dd.xx* representan
 _snippets_ con códigos funcionales que resuelven
-una tarea específica descrita en un comentarío dentro del
-código en la cabecera.
+una tarea específica descrita en un comentario en la cabecera.
 
 Si deseas puedes ejecutar los códigos de acuerdo al
 lenguaje descrito:
@@ -48,7 +47,7 @@ $ node code.js
 
 Observa que en el caso de _javascript_, puedes copiar
 y pegar el código en el navegador abriendo la consola
-de desarrollador (pulsa F12). Sin embargo, algunos códigos
+de desarrollador (pulsa _F12_). Sin embargo, algunos códigos
 necesitarán ser ejecutados en _Node.js_. Para checar
 rápidamente si se necesita _Node.js_ observa las primeras
 líneas del código y si aparece algún _requiere(...)_ es
@@ -73,7 +72,7 @@ Por lo tanto los códigos no serán siempre óptimos, por
 ejemplo, pueden utilizar recursividad en _pro_ a la
 _compacidad_, o pueden ser extensos en _pro_ a la simplicidad.
 
-Sólo algúnos algoritmos exahustivos serán óptimos, pero
+Sólo algunos algoritmos exahustivos serán óptimos, pero
 todo dependerá del problema y la frecuencia con la que
 se utilice. Sobre todo algoritmos de búsquedas, ordenamiento,
 encriptación, etc.
@@ -96,4 +95,6 @@ en la raíz y rara vez los compilaré a html.
 _Con esto me despido y espero que visiten alguno de
 los links._
 
-_P.D. No olviden citar el git :D_   
+_No olviden propagar el git :D_
+
+_Atentamente. Alan (lans)_   
