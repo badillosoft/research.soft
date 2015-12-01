@@ -1,4 +1,4 @@
-# Diferencias entre Ruby, Python y Javascript - Parte I
+# Ruby, Python y Javascript - Parte I
 
 ### Por Alan Badillo Salas
 
