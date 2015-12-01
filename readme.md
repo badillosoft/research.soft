@@ -1,6 +1,6 @@
 # Bienvenidos
 
-### Alan Badillo Salas | @badillosoft | badillo.soft@hotmail.com 
+### Alan Badillo Salas | @[@badillosoft](https://twitter.com/badillosoft) | badillo.soft@hotmail.com 
 
 ## Introducción
 
@@ -9,13 +9,13 @@ cada código resuleve un problema específico y están secuenciados
 por día con el objetivo que día a día vayan creciendo podamos
 construir un conjunto de recetas interesantes.
 
-No olvides visitar la página en _Facebook_:
+Visita la página _Desarrolladores sin límites_ en _Facebook_:
 [research.sof](https://www.facebook.com/research.soft)
 
-Si quieres seguirme en _Twitter_:
+Sigueme en _Twitter_:
 [@badillosoft](https://twitter.com/badillosoft)
 
-O en _LinkedIn_:
+Buscame en _LinkedIn_:
 [badillosoft](https://mx.linkedin.com/in/badillosoft)
 
 ## Descripción
