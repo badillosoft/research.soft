@@ -1,4 +1,4 @@
-# Ruby, Python y Javascript - Parte I
+# Ruby, Python y Javascript - Parte II
 
 ### Por Alan Badillo Salas
 
@@ -252,6 +252,8 @@ Ahora imaginemos que la condición requiere mucho tiempo para ejecutarse,
 entonces si tarda por ejemplo un segundo, para n elementos se tardaría
 n-segundos.
 
+> Javascript
+
 ~~~js
 function filtro(a, cond) {
 	var b = [];
@@ -283,6 +285,8 @@ console.log(diff / 1000.0);
 El código anterior tarda 5 segundos en determinar los elementos que pasan el filtro,
 ahora vamos a paralelizar el algoritmo utilizando 
 [_Parallel.js_](https://adambom.github.io/parallel.js/):
+
+> Javascript
 
 ~~~js
 var Parallel = require('paralleljs');
