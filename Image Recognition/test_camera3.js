@@ -1,3 +1,17 @@
+// Alan Badillo Salas | badillo.soft@hotmail.com
+// Javascript - Tomar una foto cada 0.5 segundos
+// durante 3 segundos usando Node.js e shelljs
+// Procesar la imagen: Crea una nueva imagen
+// a partir de la última foto tomada.
+// Esta imagen será la imagen ya procesada.
+// terpix - Obtiene un pixel y sus vecinos
+//		izquierdo, derecho, arriba y abajo
+// diff - Procesa un terpix y devuelve un nuevo
+//		pixel según una lógica establecida con sus
+//		vecinos, la lógica usada es que devuelva un
+//		pixel blanco si la variación con sus vecinos es
+//		alta. 
+
 var shell = require('shelljs');
 var lwip = require('lwip');
 

@@ -1,3 +1,7 @@
+// Alan Badillo Salas | badillo.soft@hotmail.com
+// Javascript - Tomar una foto cada 5 segundos
+// usando Node.js e imagesnap
+
 var shell = require('shelljs');
 var fs = require('fs');
 var imagesnap = require('imagesnap');
