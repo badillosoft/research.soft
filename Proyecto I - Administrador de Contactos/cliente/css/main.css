@@ -1,0 +1,18 @@
+/*body {
+	background-color: #CFCFCF;
+}*/
+
+.box {
+	margin: 10px 0px 10px 0px;
+}
+
+.panel {
+	background-color: #FFF;
+	padding: 10px 10px 10px 10px;
+	border-width: 1px;
+	border-color: #CCC;
+}
+
+.red {
+	background-color: #E00000;
+}

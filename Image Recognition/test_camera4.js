@@ -85,10 +85,10 @@ lwip.open(image_name, function (err, image) {
 
 			var pix = terpix(image, w, h, i, j);
 
-			var d = diff(pix);
-
-			if (d.r == 255) {
-				arr.push({i: i, j: j, c: d});
+			if (pix.c.g > 40 && pix.c.r < 100 && pix.c.b < 100) {
+				arr.push({i: i, j: j, c: {r: 255, g: 255, b: 0, a: 0}});
+			} else {
+				arr.push({i: i, j: j, c: pix.c});
 			}
 
 			//console.log('Pixel (' + i + ',' + j + '): ');

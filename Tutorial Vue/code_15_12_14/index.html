@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Test Vue!</title>
+		<script src="vue.js"></script>
+		<script src="app.js"></script>
+	</head>
+	<body>
+		Alan Badillo Salas | <a href="mailto:badillo.soft@hotmail.com">
+			badillo.soft@hotmail.com</a>
+		<div id="app">
+			Hola {{name}} <br>
+			What's your name? <br>
+			<input v-model="name"> 
+		</div>
+		
+		<div id="list_app">
+			<ul>
+				<li v-for="e in items">
+					<h1>{{e.name}}</h1>
+					<h2>{{e.email}}</h2>
+				</li>
+			</ul>
+		</div>
+	</body>
+</html>
