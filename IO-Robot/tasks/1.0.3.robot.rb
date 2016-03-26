@@ -1,4 +1,5 @@
 require 'json'
+require '../robot'
 
 str = ''
 
@@ -8,9 +9,6 @@ end
 
 json = JSON.parse str
 
-json.each do |k, v|
-	if v.is_a? Numeric
-		json[k] = v + 1
-	end
-end
+r = Robot.new(json["robot"]["position"], json["robot"]["angle"])
 
+puts r.move(json["do"]["distance"].to_f).to_json

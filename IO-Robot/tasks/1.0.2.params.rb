@@ -18,8 +18,8 @@ if options[:in].nil? or options[:map].nil?
 	exit
 end
 
-$i = options[:in]
+i = options[:in]
 
-p options[:map]
+# p options[:map]
 
 puts eval options[:map]

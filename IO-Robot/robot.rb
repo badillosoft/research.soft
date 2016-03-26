@@ -1,7 +1,12 @@
+require 'json'
+
 class Robot
 	def initialize(position = {:x => 0, :y => 0}, angle = 0)
-		@p = position 
+		@p = {:x => 0, :y => 0} 
 		@a = angle
+		
+		@p[:x] = position[:x] || position["x"]
+		@p[:y] = position[:y] || position["y"]
 	end
 	
 	def position; @p end
@@ -18,13 +23,23 @@ class Robot
 	
 	def to_s; "(#{x}, #{y}) #{dangle}" end
 	
+	def to_json
+		obj = {
+			:robot => {
+				:position => {
+					:x => x,
+					:y => y
+				},
+				:angle => dangle
+			}
+		}
+		
+		obj.to_json
+	end
+	
 	def move(d)
 		self.x += d * Math.cos(angle)
 		self.y += d * Math.sin(angle)
 		self
 	end
 end
-
-r = Robot.new({:x => 1, :y => 2}, 90)
-
-puts r.move 1
